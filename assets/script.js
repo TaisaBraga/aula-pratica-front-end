@@ -4,6 +4,7 @@ function paginar(id) {
 
   var newActiveItem = document.getElementById(id);
   newActiveItem.classList.add('active');
+
 }
 
 var pageLinks = document.querySelectorAll('.pagination .page-link');

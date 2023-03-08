@@ -15,6 +15,10 @@
   <link href="./assets/style/style.css" rel="stylesheet">
   <script src="./assets/script.js"></script>
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Merienda:wght@300&family=Shantell+Sans:wght@300&display=swap"
+    rel="stylesheet">
+
   <title>Aula Prática</title>
 </head>
 
@@ -22,32 +26,51 @@
 
   <div class="main">
     <h1>Caderno de Receitas</h1>
+    <div class="card" style="width: 35rem; height: 33rem;">
 
-    <div id="pag1" class="item active">
-      <h2>Receita 1</h2>
-      <img src="./assets/images/pancakes01.jpg" alt="">
-      <p>descricao da receita</p>
-    </div>
-    <div id="pag2" class="item">
-      <h2>Receita 2</h2>
-      <img src="./assets/images/spaghetti01.jpg" alt="">
-      <p>descricao da receita</p>
-    </div>
-    <div id="pag3" class="item">
-      <h2>Receita 3</h2>
-      <img src="./assets/images/soup01.jpg" alt="">
-      <p>descricao da receita</p>
+      <div id="pag1" class="item active">
+        <h2 class="text-center">Café Gelado</h2>
+        <img src="./assets/images/caféGelado.jpg" class="rounded mx-auto d-block" alt="café gelado">
+        <p class="text-center">Ingredientes</p>
+        <p>100ml de leite integral ou vegetal</p>
+        <p>50ml de café instantâneo</p>
+        <p>1 colher de doce de leite</p>
+        <p>1 colher de café de canela em pó</p>
+        <p>Chantilly (opcional)</p>
+
+      </div>
+
+      <div id="pag2" class="item">
+        <h2 class="text-center">Smoothie de Morango</h2>
+        <img src="./assets/images/smoothie.jpg" class="rounded mx-auto d-block" alt="smoothie de morango">
+        <p class="text-center">Ingredientes</p>
+        <p>1 banana congelada</p>
+        <p>1 laranja</p>
+        <p>1 copo de morangos congelados</p>
+        <p>3/4 copos de leite</p>
+      </div>
+
+      <div id="pag3" class="item">
+        <h2 class="text-center">Chá Gelado</h2>
+        <img src="./assets/images/chaGelado.jpg" class="rounded mx-auto d-block" alt="">
+        <p class="text-center">Ingredientes</p>
+        <p>1 garrafa de chá gelado sem açúcar</p>
+        <p>2 laranjas</p>
+        <p>1 limão</p>
+        <p>1 raminho de alecrim</p>
+      </div>
+
     </div>
   </div>
-  <div class="pageCounter">
-    <ul class="pagination">
-      <li>
+  <div>
+    <ul class="pagination pagination-md justify-content-center">
+      <li class="page-item">
         <a class="page-link" href="#" onclick="paginar('pag1')" data-target="pag1">1</a>
       </li>
-      <li>
+      <li class="page-item">
         <a class="page-link" href="#" onclick="paginar('pag2')" data-target="pag2">2</a>
       </li>
-      <li>
+      <li class="page-item">
         <a class="page-link" href="#" onclick="paginar('pag3')" data-target="pag3">3</a>
       </li>
     </ul>

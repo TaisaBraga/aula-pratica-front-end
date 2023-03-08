@@ -1,13 +1,45 @@
-.main,
-.pageCounter {
+body {
+  background-color: #FFF8EA;
+}
+
+h1 {
+  color: #815B5B;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 3.5rem;
+  font-weight: lighter;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.299);
+}
+
+.main {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.card {
+  background-color: #ac9090a4;
+  border: none;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
+  margin-top: 2.5rem;
+}
+
+h2 {
+  color: #594545;
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 1rem;
+}
+
+p {
+  font-family: 'Merienda', cursive;
+  margin: 1rem;
+  line-height: 8px;
+}
+
 img {
+  height: 280px;
   width: 200px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
 }
 
 .item {
